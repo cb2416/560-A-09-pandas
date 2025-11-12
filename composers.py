@@ -16,8 +16,7 @@ birth_year = [1770, 1756, 1685,
               1840, 1862, 1882, 
               1813, 1898, 1937, 1957]
 
-'''Philip Glass and Hans Zimmer aren't dead, 
-but I want to calculate their age, hence 2025'''
+#Philip Glass and Hans Zimmer aren't dead, but I want to calculate their age, hence 2025
 death_year = [1827, 1791, 1750,
               1893, 1918, 1971, 
               1901, 1937, 2025, 2025]
@@ -30,7 +29,7 @@ composer = {"Last Name": composer_last,
             "Date of Death": death_year}
 data = pd.DataFrame(composer)
 
-data["age"] = (data["Date of Death"])-(data["Date of Birth"])
+data["Age"] = (data["Date of Death"])-(data["Date of Birth"])
 
 print(data)
 
