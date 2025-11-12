@@ -1,2 +1,2 @@
 # 560-A-09-pandas
-UNC Men's Basketball Data Set
+Classical Composers data set
